@@ -1,0 +1,18 @@
+# Geometri.py (Modul untuk Perhitungan Bangun Datar)
+
+def luas_persegi(sisi):
+    """Menghitung luas persegi (sisi x sisi)"""
+    return sisi * sisi
+
+def keliling_persegi(sisi):
+    """Menghitung keliling persegi (4 x sisi)"""
+    return 4 * sisi
+
+def luas_lingkaran(r):
+    """Menghitung luas lingkaran (3.14 x r x r)"""
+    return 3.14 * r * r
+
+def luas_segitiga(alas, tinggi):
+    """Menghitung luas segitiga (0.5 x alas x tinggi)"""
+    return 0.5 * alas * tinggi
+
